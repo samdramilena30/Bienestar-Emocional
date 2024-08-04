@@ -1,0 +1,98 @@
+/* Estilos generales del sitio */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilo de los encabezados */
+h1, h2, h3 {
+    color: #4a90e2;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50; /* Color verde */
+}
+
+.navbar-brand, .nav-link {
+    color: #4CAF50 !important; /* Color blanco para el texto */
+    transition: color 0.3s, text-decoration 0.3s; /* Transición suave para el efecto */
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #FFD700 !important; /* Color dorado al pasar el ratón o si está activo */
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Encabezado */
+.header {
+    background-color: #f8f9fa; 
+    padding: 20px;
+}
+
+.header h1, .header h2 {
+    color: #4CAF50; 
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 30px;
+}
+
+/* Imágenes y videos */
+img, video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #4a90e2;
+    border-radius: 5px;
+}
+
+/* Carrusel */
+.carousel-inner img {
+    width: 50%;
+    height: auto; 
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.5); /* Fondo oscuro con opacidad para la visibilidad */
+    border-radius: 50%; /* Contorno circular */
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #357ABD;
+    border-color: #357ABD;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background-color: #4CAF50; 
+    color: #4CAF50 ;
+    padding: 10px 0;
+}
+
+.footer h5 {
+    color: #FFD700;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #FFD700;
+    text-decoration: none;
+}

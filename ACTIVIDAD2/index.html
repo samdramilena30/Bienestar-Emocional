@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Emocional</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Salud Emocional</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Enlace a la página de inicio -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <!-- Enlace a la página de Instituto de Salud Emocional -->
+                <li class="nav-item">
+                    <a class="nav-link" href="instituto-salud-emocional.html">Instituto Salud Emocional</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="header text-center">
+        <h1>Bienvenido a Dimensión Emocional</h1>
+        <p>¿Cómo te sientes hoy? Este sitio ha sido creado pensando en ti!</p>
+    </header>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3200">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/emociones.jpg" class="d-block w-50 mx-auto" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/imagen2.jpeg" class="d-block w-50 mx-auto" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/imagen3.jpeg" class="d-block w-50 mx-auto" alt="Imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Sección 1 -->
+    <div class="container my-4">
+        <h2>Sección 1: Introducción a la Salud Emocional</h2>
+        <p>"Educar la mente sin educar las emociones NO es educar en absoluto" - Este enunciado es en lo que miles y cientos de especialistas y personas coincidimos.</p>
+        <ul>
+            <li>En el mundo de hoy las cifras de violencia y sufrimiento van en aumento.</li>
+            <li>Violencia contra las mujeres, niñas y niños.</li>
+            <li>Personas que gustan de su mismo sexo; LGBTQ.</li>
+        </ul>
+    </div>
+
+  <!-- Sección 2: Video Informativo -->
+<div class="container my-4">
+    <h2>Sección 2: Video Informativo</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zzNas-ICNyY?si=RIYwOW-3_LfuVbzG" allowfullscreen></iframe>
+    </div>
+</div>
+
+    <!-- Sección 3: Formulario de Contacto -->
+    <div class="container my-4">
+        <h2>Sección 3: Contáctanos</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Pie de página (Footer) -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Información del Creador</h5>
+                    <p>Nombre del creador</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <p>Facebook | Twitter | Instagram</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Links de Interés</h5>
+                    <p>Link 1 | Link 2 | Link 3</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
